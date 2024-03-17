@@ -15,8 +15,8 @@ load_dotenv(override=True)
 API_ID = int(os.getenv("TG_API_ID", "12606917"))
 API_HASH = os.getenv("TG_API_HASH", "f25113b8c17dca6fa7abda53a86bd4f7")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6405349534:AAGK7SII-EyGpU4Q_gsazZu2YD0PcsZNtKc")
-MONGODB_URL = os.getenv("MONGODB_URL", "mongodb+srv://Raj0987:<Ranjan>@cluster0.olsx7zh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-BOT_USERNAME = Txtbotraj_bot
+MONGODB_URL = os.getenv("MONGODB_URL", "Raj0987")
+BOT_USERNAME = @Txtbotraj_bot
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 mongo_client = MongoClient(MONGODB_URL, server_api=ServerApi('1'))
 download_folder = 'files'
